@@ -36,7 +36,7 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=rag_chatbot_template --cov-report=term-missing"
+addopts = "--basetemp=.pytest_tmp --cov=rag_chatbot_template --cov-report=term-missing"
 
 [tool.ruff]
 line-length = 100

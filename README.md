@@ -36,6 +36,10 @@ curl -X POST http://127.0.0.1:8000/ask \
   -d "{\"question\":\"What does the support policy say?\"}"
 ```
 
+## Sample Delivery Report
+
+![Sample RAG delivery report](docs/assets/sample-rag-report-preview.png)
+
 ## Run Tests
 
 ```bash
