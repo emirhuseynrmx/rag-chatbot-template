@@ -11,6 +11,7 @@ requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Emir Huseyin Inci" }]
 dependencies = [
+    "anthropic>=0.25",
     "fastapi>=0.115",
     "pydantic>=2.6",
     "pypdf>=5.0",
